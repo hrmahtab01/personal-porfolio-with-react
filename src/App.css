@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,ol{
+  list-style: none;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #0F0F0F;
+}
+ 
+
+#Navbar{
+  background-color: #0F0F0F !important;
+  
+}
+Nav.Link{
+  color: #FFFFFF !important;
+}
+.home{
+  color: #FFFFFF !important;
+  margin-left: 40px !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif;
+
+}
+.navicon{
+  color: #7456FF !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+.navicon span{
+  color: #FFFFFF !important;
+}
+.navbtn{
+  color: #7456FF !important;
+  border: 2px solid #7456FF !important;
+margin-left: 40px !important;
+font-size: 20px !important;
+font-weight: 600 !important;
+ 
+}
+
+.navbtn:hover{
+  color: #FFFFFF !important;
+  background: #0F0F0F !important;
+}
+
+/*---===================
+navbar part end
+====================---*/
+
+/*---===================
+banner part start
+====================---*/
+#banner{
+  background: #0F0F0F;
+  padding: 120px 0 0;
+}
+.banner_text_part h3{
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+
+}
+.banner_text_part h1{
+  font-size: 52px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+
+}
+.banner_text_part h1 span{
+  font-size: 52px;
+  font-weight: 600;
+  color: #7456FF;
+  font-family: "Poppins", sans-serif;
+
+}
+.banner_text_part h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: #999999;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+
+}
+.banner_text_part p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #999999;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+
+}
+.banner_text_part h5{
+  width: 76px;
+  height: 2px;
+  background-color: #999999;
+  margin-top: 50px;
+}
+.banner_btn{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.banner_btn button{
+  width: 203px;
+  height: 60px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background: #0F0F0F;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.banner_btn button:hover{
+  background: #7456FF;
+  border: none;
+}
+.banner_btn button .icon{
+  margin-right: 10px;
+}
+.banner_img_part{
+  position: relative;
+}
+.banner_img_part .imgone{
+position: absolute;
+right: 0;
+top: 100px;
+
+}
+.banner_img_part .imgtwo{
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+  }
+
+
+/*---===================
+banner part end
+====================---*/
+
+
+
+/*---===================
+Client part start
+====================---*/
+#Client{
+  padding: 130px 0 0;
+  background: #0F0F0F;
+}
+.client_header{
+  text-align: center;
+ 
+}
+.client_header h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  margin-bottom: 30px;
+
+}
+.client_header h2{
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  width: 636px;
+  margin: 0 auto;
+ 
+
+}
+.client_item{
+  width: 338px;
+  height: 338px;
+  background: rgba(117, 86, 255, 0.20);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 2px solid rgba(117, 86, 255, 0.20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  position: relative;
+  margin-top: 150px;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  margin-bottom: 240px;
+}
+.client_item:hover{
+height: 364px;
+margin-top: 136px;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 37px;
+}
+.client_item h3{
+  position: absolute;
+  bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(117, 86, 255, 0.20);
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.client_item:hover h3{
+font-size: 28px;
+color: #7456FF;
+}
+
+.client_sell{
+ width: 255px;
+ height: 223px;
+ background: #131313;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ border: 1px solid #FFFFFF;
+ transition: .4s;
+ -webkit-transition: .4s;
+ -moz-transition: .4s;
+ -ms-transition: .4s;
+ -o-transition: .4s;
+}
+.client_sell:hover{
+  background: #7456FF;
+  border: none;
+}
+.client_sell h5{
+  position: absolute;
+  bottom: 58px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "poppins",sans-serif;
+  color: #FFFFFF;
+
+}
+.client_sell h3{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "poppins",sans-serif;
+  color: #FFFFFF;
+ 
+}
+.client_wrapper{
+
+  justify-content: center;
+ 
+  
+}
+/*---===================
+Client part end
+====================---*/
+
+/*---===================
+Testimonialspart start
+====================---*/
+
+#Testimonials{
+  padding: 124px 0 83px;
+  background: #0F0F0F;
+
+}
+
+.testimonial_heading{
+  text-align: center;
+}
+.testimonial_heading h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: #707070;
+  margin-bottom: 28px;
+  font-family: "poppins",sans-serif;
+
+}
+.testimonial_heading h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: "poppins",sans-serif;
+  margin-bottom: 101px;
+
+}
+
+.test_with{
+
+  padding: 50px 0 64px;
+  background: #131313;
+  position: relative;
+  
+}
+.test_imgpart{
+  width: 376px;
+  height: 271px;
+  background: #000000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  top: -30px;
+  right: 60%;
+}
+
+.test_textpart p{
+  font-size: 16px;
+  width: 618px;
+  font-weight: 400;
+  color: #999999;
+  font-family: "poppins",sans-serif;
+
+}
+.test_textpart h3{
+  font-size: 28px;
+  font-weight: 600;
+  color: #7456FF;
+  font-family: "poppins",sans-serif;
+
+
+}
+.test_textpart h5{
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 11px;
+}
+
+
+/*---===================
+Testimonials part end
+====================---*/
+
+
+
+
+/*---===================
+skill part start
+====================---*/
+#skill{
+  background: #0F0F0F;
+  padding:83px 0 100px;
+}
+
+.skillflex{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill_heading {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.skill_heading h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFFFFF;
+
+}
+.skill_item{
+  align-items: center;
+}
+.skill_itemo img{
+  margin-left: 50px;
+}
+/*---===================
+skill part end
+====================---*/
+
+
+
+
+/*---===================
+footer part start
+====================---*/
+#footer{
+  padding:90px 0 90px;
+  background: #000000;
+}
+.footer_left h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+
+}
+.footer_left p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  margin-bottom: 30px;
+}
+
+.footer_conatct{
+  display: flex;
+ gap: 15px;
+ position: relative;
+}
+
+.footer_conatct a{
+  position: absolute;
+  top: 30px ;
+  left: 70px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.footer_conatct ul i{
+ color: #FFFFFF;
+ width: 25px;
+ height: 25px;
+}
+.footer_conatct p{
+  color: #999999;
+}
+.footer_conatct ul {
+  padding: 10px;
+ 
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  margin-right: 10px;
+  margin-bottom: 23px;
+ text-align: center;
+}
+
+.footer_img{
+  position: relative;
+}
+.footer_img img{
+  position: absolute;
+  right: 0;
+}
+/*---===================
+footer part end
+====================---*/
