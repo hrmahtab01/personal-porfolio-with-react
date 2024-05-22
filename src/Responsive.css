@@ -1,0 +1,108 @@
+@media (min-width:360px ) and (max-width:576px) {
+    .navbar-toggler-icon {
+     background-color: teal !important;
+    }
+
+    .banner_btn {
+     
+        margin-bottom: 30px;
+    }
+    #Client {
+        padding: 382px 0 0;
+     
+    }
+    .banner_img_part .imgtwo {
+        position: absolute;
+        right: -12px;
+        top: 19px;
+    }
+    .banner_img_part .imgone {
+        position: absolute;
+        right: 0;
+        top: 147px;
+    }
+    #Client {
+        padding: 587px 0 0;
+        
+    }
+    .client_header h2 {
+    
+        width: auto;
+       
+    }
+    .client_item {
+
+        margin-top: 73px;
+ 
+    }
+    .client_sell {
+     
+        margin-bottom: 10px;
+  
+    }
+    .test_textpart p {
+       
+        margin-top: 174px;
+        width: auto;
+    }
+    .test_imgpart {
+  
+        top: -76px;
+        right: 2%;
+    }
+    #footer {
+        padding: 90px 0 327px;
+       
+    }
+}
+
+@media (min-width:577px ) and (max-width:768px){
+    #Client {
+        padding: 537px 0 0;
+        
+    }
+
+    .banner_img_part .imgone {
+        
+        top: 151px;
+    }
+    .banner_img_part .imgtwo {
+               top: 25px;
+    }
+    .client_header h2 {
+     
+        width: auto;
+      
+    }
+    .client_header h2 {
+     
+        margin-bottom: 100px;
+    }
+
+    .client_item {
+
+        margin-top: -67px;
+    
+        margin-bottom: 100px;
+    }
+
+    .client_sell {
+     
+        margin-bottom: 10px;
+  
+    }
+    .test_textpart p {
+       
+        margin-top: 174px;
+        width: auto;
+    }
+    .test_imgpart {
+  
+        top: -76px;
+        right: 2%;
+    }
+    #footer {
+        padding: 90px 0 327px;
+       
+    }
+}
